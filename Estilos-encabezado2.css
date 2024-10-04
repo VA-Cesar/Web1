@@ -1,0 +1,21 @@
+.Contenido-ColumnaCompra {
+    width: 80%;
+    margin: 5% auto; /* Ajusta el margen para centrar verticalmente */
+    padding: 20px; /* Añade espacio interno alrededor del contenido */
+    background-color: #fff; /* Fondo blanco para la caja */
+    border: 1px solid #ccc; /* Borde gris claro para definir los límites de la caja */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto dentro de la caja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+}
+
+.Contenido-ColumnaCompra h1 {
+    font-size: 48px;
+    margin: 0; /* Elimina el margen por defecto del h1 */
+    font-size: 24px; /* Tamaño de fuente para el h1 */
+    color: #333; /* Color del texto */
+}
+.Contenido-ColumnaCompra i {
+    font-size: 200px; /* Aumenta el tamaño del icono */
+    color: #FFD43B; /* Cambia el color del icono */
+}

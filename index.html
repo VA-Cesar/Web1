@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos-generales.css">
+    <link rel="stylesheet" href="Estilos-Responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <nav id="start">
+        <div class="nav-content">
+            <div class="content-logo">
+                <a href="index.html"><img src="imagenes/Logo.png"  alt="Imagen de Sqar Davarpanah"></a>
+            </div>
+            <ul class="ul-nav-link">
+                <span class="closer ul-closer"><i class="fa-solid fa-arrow-right"></i></span>
+                
+                <li><a href="#" id="link-Home" class="seleccionado">HOME</a></li>
+                <li><a href="#" id="link-services">SERVICES</a></li>
+                <li><a href="#" id="link-about">ABOUT</a></li>
+                <li><a href="#" id="link-faq">FAQ</a></li>
+                <li><a href="#" id="link-news">NEWS</a></li>
+                <li><a href="#" id="link-contact">CONTACT</a></li>
+                <script>
+
+                    document.addEventListener('DOMContentLoaded', function() {
+                        document.querySelectorAll('.ul-nav-link a').forEach(link => {
+                            link.addEventListener('click', function(event) {
+                                event.preventDefault(); // Evita que el enlace redirija
+    
+                                // Remover la clase 'seleccionado' de todos los enlaces
+                                document.querySelectorAll('.ul-nav-link a').forEach(item => item.classList.remove('seleccionado'));
+                                    
+                                // Agregar la clase 'seleccionado' al enlace clicado
+                                this.classList.add('seleccionado');
+                            });
+                        });
+                    });
+                </script>
+            </ul>
+            <div class="content-tel-number">
+                <i class="fa-solid fa-phone"></i>
+                <div class="content-support">
+                    <p class="support-text">Support</p>
+                    <p class="support-number">+1 307 09 13</p>
+                </div>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <div class="overlay"></div> <!-- Agrega un overlay -->
+    </nav>            
+
+    <div class="contenedores">
+        <div id="contenido">
+        </div>
+
+        <div class="contenedor2">
+
+            <div class="contenedor2-texto">
+                <input type="button" class="btn-Awesome" value="Awesome Customer Services">
+                
+                <h2>
+                    Awesome Customer Services
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
+                    eius mod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="contenedor2-columnas-cards">
+                <div class="slider">
+                    <div class="slide active">
+                        <a href="#" class="contenedor2-columas-info">
+                            <img src="imagenes/icon1.png" alt="Imagen de Sqar Davarpanah">
+                            <h3>Scalable Host Storages</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt labore et dolore magna aliqua
+                                egestas purus viverra accumsan
+                            </p>
+                            <div class="contenedor2-columnas-readmore">
+                                <h4>READ MORE</h4>
+                                <span class="arrow"></span>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="slide">
+                        <a href="#" class="contenedor2-columas-info">
+                            <img src="imagenes/icon2.png" alt="Imagen de Sqar Davarpanah">
+                            <h3>PaaS Technology Passed</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt labore et dolore magna aliqua
+                                egestas purus viverra accumsan
+                            </p>
+                            <div class="contenedor2-columnas-readmore">
+                                <h4>READ MORE</h4>
+                                <span class="arrow"></span>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="slide">
+                        <a href="#" class="contenedor2-columas-info">
+                            <img src="imagenes/icon2.png" alt="Imagen de Sqar Davarpanah">
+                            <h3>Unlimited Traffics</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt labore et dolore magna aliqua
+                                egestas purus viverra accumsan
+                            </p>
+                            <div class="contenedor2-columnas-readmore">
+                                <h4>READ MORE</h4>
+                                <span class="arrow"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        
+            <div class="contenedor2-columnas">
+                <a href="#" class="contenedor2-columas-info">
+                    <img src="imagenes/icon1.png" alt="Imagen de Sqar Davarpanah">
+                    <h3>Scalable Host Storages</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt labore et dolore magna aliqua
+                        egestas purus viverra accumsan
+                    </p>
+                    <div class="contenedor2-columnas-readmore">
+                        <h4>READ MORE</h4>
+                        <span class="arrow"></span>
+                    </div>
+                </a>
+        
+                <a href="#" class="contenedor2-columas-info">
+                    <img src="imagenes/icon2.png" alt="Imagen de Sqar Davarpanah">
+                    <h3>PaaS Technology Passed</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt labore et dolore magna aliqua
+                        egestas purus viverra accumsan
+                    </p>
+                    <div class="contenedor2-columnas-readmore">
+                        <h4>READ MORE</h4>
+                        <span class="arrow"></span>
+                    </div>
+                </a>
+        
+                <a href="#" class="contenedor2-columas-info">
+                    <img src="imagenes/icon3.png" alt="Imagen de Sqar Davarpanah">
+                    <h3>Unlimited Traffics</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt labore et dolore magna aliqua
+                        egestas purus viverra accumsan
+                    </p>
+                    <div class="contenedor2-columnas-readmore">
+                        <h4>READ MORE</h4>
+                        <span class="arrow"></span>
+                    </div>
+                </a>
+            </div>
+        
+        </div>
+        
+
+        <div class="contenedor3">
+            <center>
+                <input type="button" class="btn-Awesome" value="Lorem ipsum dolor sit amet dicariopted">
+                <div class="encabezado-contenedor3">
+                    <h3>
+                        Quality doesn't has low Price
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do
+                        eius mod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="enlaces-encabezado-contenedor3">
+                        <a href="#" id="link-opcion1"><img src="imagenes/encabezado3/encabezado3-icon1.png"  alt="Imagen de Sqar Davarpanah">Fastest Web Servers</a>
+                        <a href="#" id="link-opcion2"><img src="imagenes/encabezado3/encabezado3-icon2.png" alt="Imagen de Sqar Davarpanah">Open Source</a>
+                        <a href="#" id="link-opcion3"><img src="imagenes/encabezado3/encabezado3-icon3.png" alt="Imagen de Sqar Davarpanah">Compacked Hub</a>
+                        <a href="#" id="link-opcion4" class="seleccionado"><img src="imagenes/encabezado3/encabezado3-icon4.png" alt="Imagen de Sqar Davarpanah">Best CS in 2020</a>
+                        <a href="#" id="link-opcion5"><img src="imagenes/encabezado3/encabezado3-icon5.png" alt="Imagen de Sqar Davarpanah">Unlimited Mail Servers</a>
+                    </div>
+
+                </div>
+            </center>
+        </div>
+
+        <div id="contenido2">
+        </div>
+        <script src="Funciones-index.js"></script>
+        <script src="Funciones-encabezado.js"></script>
+        <script src="cambio-enlace.js"></script>
+        <script src="slider.js"></script>
+
+        <div class="contenedor4">
+
+            <div class="contenido1-contenedor4">
+
+                <div class="contenido1-contenedor4-texto">
+                    <input type="button" value="Desingned for Fucking Huge Projects" class="contenido1-contenedor4-button">
+
+                    <h1>Designed For <spam style="color: blue;">Scale</spam> & <spam style="color: blue;">Performance</spam></h1>
+                    <div class="contenido1-contenedor4-texto-1">
+                        <label class="label-text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</label><br>
+
+                        <label class="label-text2">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed eiusmod nisi porta lorem mollis.
+                        </label>
+                    </div>
+                    
+                    <a href="#">Get Started</a>
+                </div>
+
+                <div class="contenido1-contenedor4-imagen">
+                    <img src="imagenes/Contenedor4/imagen1.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="contenido2-contenedor4">
+
+                <div class="contenido2-contenedor4-imagen">
+                    <img src="imagenes/Contenedor4/imagen2.png" alt="">
+                </div>
+
+                <div class="contenido1-contenedor4-texto">
+                    <input type="button" value="So Flucking Easy for deployment" class="contenido1-contenedor4-button">
+
+                    <h1>Quick & Easy <spam style="color: blue;">Deployment</spam></h1>
+
+                    <div class="contenido1-contenedor4-texto-1">
+                        <label class="label-text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</label><br>
+
+                        <label class="label-text2">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed eiusmod nisi porta lorem mollis.
+                        </label>
+                    </div>
+
+                    <a href="#">Get Started</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contenedor5">
+            <div class="contenido1-contenedor5">
+                <div class="contenido1-contenedor5-texto">
+                    <input type="button" value="Our Clients are so ficking Amazing!" class="contenido1-contenedor5-button">
+                        <h1>Our Best Clients Review</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="contenido1-contenedor5-Mapa">
+                    <div class="contenido-botones-contenedor5-mapa">
+
+                        <div class="boton1-mapa">
+                            <button class="boton1" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen1-boton" src="imagenes/imagenes-personas-contenedor6/imagen1.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="boton2-mapa">
+                            <button class="boton2" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen2-boton" src="imagenes/imagenes-personas-contenedor6/imagen2.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                            </div>
+                        </div>
+
+                        <div class="boton3-mapa">
+                            <button class="boton3" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen3-boton" src="imagenes/imagenes-personas-contenedor6/imagen3.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="boton5-mapa">
+                            <button class="boton5" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen5-boton" src="imagenes/imagenes-personas-contenedor6/imagen5.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                            </div>
+                        </div>
+
+                        <div class="boton6-mapa">
+                            <button class="boton6" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen6-boton" src="imagenes/imagenes-personas-contenedor6/imagen6.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+
+                            </div>
+                        </div>
+
+                        <div class="boton7-mapa">
+                            <button class="boton7" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen7-boton" src="imagenes/imagenes-personas-contenedor6/imagen7.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                            </div>
+                        </div>
+
+                        
+
+
+
+                        <div class="boton4-mapa">
+                            <button class="boton4" type="button" aria-label="Ver perfil de Sqar Davarpanah">
+                                <img class="imagen4-boton" src="imagenes/imagenes-personas-contenedor6/imagen4.png" alt="Imagen de Sqar Davarpanah">
+                            </button>
+                            <div class="contenedor-texto-botones">
+                                <p>Lorem ipsum dolore amet consectetur adipisicing elit, sed do eiusmod tempor labore magna incididunt</p>
+                                <h4><b>Sqar Davarpanah</b></h4>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+                                <i class="fa-solid fa-star icono" style="color: #FFD43B;"></i>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+
+                    <img src="imagenes/imagenes-contenedor5/contenedor5-mapa.webp" alt="Imagen de Sqar Davarpanah">
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor6">
+            <div class="contenedor5-texto">
+                <input type="button" class="contenido1-contenedor5-button1" value="Our Clientsare so fucking Amazing!">
+                <center>
+                    <div class="contenedor5-texto-texto-h1-h2">
+                        <h1>We're Powering over 25</h1> 
+                        <h2>Million Websites Worldwide</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </center>
+                <input type="button" class="contenido1-contenedor5-button2" value="Star For Free">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="columna-footer-principal">
+
+            <div class="footer-columna">
+
+                <div class="footer-columna-items">
+                    <div class="footer-columna1-encabezado">
+                        <img class="footer-logo" src="imagenes/Logo.png" alt="Imagen de Sqar Davarpanah">
+                        <div class="linea-vertical"></div> 
+                        <img class="footer-icon" src="imagenes/imagenes-footer/footer-icono1.png" alt="Imagen de Sqar Davarpanah">
+                        <img class="footer-icon" src="imagenes/imagenes-footer/footer-icono2.png" alt="Imagen de Sqar Davarpanah">
+                        <img class="footer-icon" src="imagenes/imagenes-footer/footer-icono3.png" alt="Imagen de Sqar Davarpanah">
+                        <img class="footer-icon" src="imagenes/imagenes-footer/footer-icono4.png" alt="Imagen de Sqar Davarpanah">
+
+                    </div>
+
+
+                    <div class="footer-columna1-texto">
+                        <p class="footer-columna1-texto-parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu bin cursus vitae congue mauris rhoncus aenean vel elit tempor scelerisque in egestas erat imperdiet.</p>
+                        <h2>NEWS LETTER</h2>
+                        <p class="footer-columna1-texto-parrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </div>
+
+                    
+                    <div class="footer-columna1-buscar">
+                        <input type="search" class="footer-buscarDominio" placeholder="Search your domain...                ">
+                        <input type="button" class="footer-buscar" value="Suscribete">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-columna">
+                <div class="footer-columna-items">
+                    <div class="footer-columna2-texto">
+                        <h2>INTERNAL PAGES</h2>
+                        <div class="footer-columna2-texto-1">
+
+                            <a href="#">Home</a>
+                            <a href="#">Services</a>
+                            <a href="#">About us</a>
+                            <a href="#">FAQ</a>
+            
+                            <a href="#">News</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Support</a>
+                            <a href="#">Traquing CNQ</a>
+            
+                            <a href="#">Blog</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">How we work?</a>
+                            <a href="#">Parters</a>
+                        </div>
+                        <h2>PARTERS</h2>
+                        <div class="footer-columna2-texto-1">
+
+                            <a href="#">Bosco Inc</a>
+                            <a href="#">Mante</a>
+                            <a href="#">Pollich</a>
+                            <a href="#">Runolfsdottir</a>
+
+                            <a href="#">Homenick</a>
+                            <a href="#">Emard</a>
+                            <a href="#">Hamill Sons</a>
+                            <a href="#">Romaguera</a>
+
+                            <a href="#">Haley Ltd</a>
+                            <a href="#">Bayer Inc</a>
+                            <a href="#">Chistian LN</a>
+                            <a href="#">Parters</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-final">
+            <img class="footer-imagen-linea" src="imagenes/imagenes-footer/46 sin título_20240830162159.png" alt="Imagen de Sqar Davarpanah">
+            <button class="footer-final-btn" id="footer-boton-regresarinicio" aria-label="Ver perfil de Sqar Davarpanah">
+                <img src="imagenes/imagenes-footer/footer-button.png" alt="Imagen de Sqar Davarpanah">
+            </button>
+            <script>
+                document.getElementById('footer-boton-regresarinicio').addEventListener('click', function() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            </script>
+        </div>
+        <div class="footer-copy">
+            <p class="copyright-footer">All Right reserved - Cloudlfex@ 2024</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
