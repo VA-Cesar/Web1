@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1130px){
     .ul-closer{
         display: flex;
         font-size: 40px;
@@ -412,6 +412,17 @@
     }
     .columnaCompra:hover{
         transform: translateY(-5px);
+    }
+}
+@media (max-width: 1570px){
+    .nav-content{
+        width: 95%;
+    }
+        .ul-nav-link{
+        margin: 0 auto;
+    }
+    .ul-nav-link a {
+        margin: 0 25px; 
     }
 }
 /*  ESTILOS PARA MOBIL  */
