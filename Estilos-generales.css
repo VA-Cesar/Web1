@@ -50,8 +50,8 @@ body::-webkit-scrollbar-thumb{
     justify-content: flex-start;
     align-items: center;
 }
-.content-logo a img {
-    width: 260px;
+.content-logo img {
+    width: 200px;
     height: auto;
 }
 .ul-nav-link {
@@ -629,12 +629,13 @@ select option {
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    color: #00AD73;
+    color: #00573A;
     background-color: #DCF3F0;
     padding: 10px 20px;
 }
 
-.contenido1-contenedor4 {
+.contenido1-contenedor4,
+.contenido2-contenedor4  {
     margin-bottom: 250px;
     display: flex;
     align-items: center;
@@ -712,7 +713,7 @@ select option {
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    color: #00AD73;
+    color: #00573A;
     background-color: #DCF3F0;
     padding: 10px 20px;
 }

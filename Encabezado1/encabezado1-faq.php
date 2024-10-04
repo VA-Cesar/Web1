@@ -13,7 +13,8 @@
             margin: 22.5% auto;
             width: 80%;
         }
-        .Contenido-contenedores1 h1{
+        .Contenido-contenedores1 h1,
+        .Contenido-contenedores1 h2{
             color: white;
             text-align: center;
         }
@@ -21,7 +22,8 @@
 </head>
 <body>
     <div class="Contenido-contenedores1">
-        <h1>Coming Soon . . .</h1>
+        <h1>FAQ Services</h1>
+        <h2>Coming Soon</h2>
     </div>
 </body>
 </html>

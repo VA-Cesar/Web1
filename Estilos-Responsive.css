@@ -53,7 +53,7 @@
         display: flex;
         font-size: 40px;
         color: #ffffff;
-        width: 90%;
+        width: 81%;
         height: 40px;
         padding: 30px;
         margin-top: 5px;
@@ -418,7 +418,7 @@
 
 @media (max-width: 781px){
     .contenedores{
-        background: linear-gradient(to bottom, #121833 71%, #FAFBFF 71%);
+        background: linear-gradient(to bottom, #121833 65%, #FAFBFF 60%);
     }
 
 
