@@ -1,0 +1,199 @@
+.services,
+.about,
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.services-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.services-contenido-texto {
+    color: #e2e6f3;
+    flex: 1;
+    padding-right: 20px;
+}
+.services-contenido-texto h1,
+.services-contenido-texto h2{
+    line-height: 10px;
+    font-size: 120px;
+}
+.service-h1{
+    font-weight: lighter;
+    color: #09E4A8;
+}
+.services-contenido-texto-titulo{
+    border-bottom: 10px solid white;
+    width: 20%;
+}
+
+.services-contenido-texto-texto{
+    line-height: 39px;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 22px;
+    width: 90%;
+    color: #C6CCE4;
+    padding: 10px 0;
+}
+.search-services{
+    width: 80%;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #242C52;
+    color: white;
+    &::placeholder {
+        color: #7881AD;
+    }
+}
+
+.services-contenido-imagen {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 80%;
+    height: auto; 
+    object-fit: cover;
+    max-width: 100%; 
+    border-radius: 10px; 
+}
+
+.imagen-about{
+    padding: 5% 3%;
+    border-radius: 15px;
+    border: 1px solid rgba(200, 205, 229, 0.5); /* 0.5 es la opacidad del borde */
+
+}
+
+.about-contenido{
+    color: white;
+}
+.news-contenido-texto-titulo h4{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.services-contenido-texto-titulo h2
+.news-contenido-texto-titulo h4,
+.about-contenido-texto-titulo h4{
+    font-weight: lighter;
+    color: #C6CCE4;
+}
+
+.services-contenido-texto-titulo h2
+.news-contenido-texto-titulo h1,
+.about-contenido-texto-titulo h1{
+    line-height: 0%;
+    font-size: 120px;
+    background-color: #09E4A8;
+}
+.about-contenido-texto-texto{
+    padding: 5% 0;
+}
+.about-contenido-texto-texto p{
+    font-weight: lighter;
+    font-family: 'Century Gothic', sans-serif;
+    &::before {
+        content: "\f14a";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #63E6BE;
+        margin-right: 20px; /* Añadimos espaciado entre el icono y el texto */
+        display: inline-block; /* Aseguramos que se muestre en línea con el texto */
+    }
+}
+
+.about-contenido-texto-button{
+    padding: 5% 0;
+}
+.about-button{
+    padding: 10px 30%;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #09E4A8;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.news{
+    border: 3px solid #7881AD;
+    border-radius: 15px;
+    padding: 3%;
+}
+.contact-news{
+    border: 3px solid #7881AD;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco con 50% de opacidad */
+
+}
+
+.contenido1-contact-columna1-texto p{
+    font-family: 'Century Gothic', sans-serif;
+    color: #BBC1DA;
+    line-height: 39px;
+}
+
+.contenido1-contact-columna1-info1,
+.contenido1-contact-columna1-info2,
+.contenido1-contact-columna1-info3{
+    padding: 3% 0;
+}
+
+
+.contenido1-contact-contenido1-columna1{
+    background-color: #242C52;
+    padding: 5% 10%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.contact-imagen{
+    border: 3px solid #242C52;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.contact{
+    padding-right: 30px;
+}
+
+@media (max-width: 780px){
+    .services,
+    .about{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .services-contenido-texto-texto{
+        width: 100%;
+    }
+
+
+    .services-contenido-texto-titulo h2,
+    .services-contenido-texto h1,
+    .about-contenido-texto-titulo h1,
+    .about-contenido-texto-titulo h2{
+        font-size: 60px;
+    }
+    .services-contenido-texto input[type="text"] {
+        margin: 0 auto;
+        display: block;
+    }    
+    .contenido1-contact-contenido1-columna1{
+        border-radius: 15px;
+    }
+}

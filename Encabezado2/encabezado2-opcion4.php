@@ -11,39 +11,51 @@
 </head>
 <body>
     
-    <div class="contenedor-columnaCompra">
-        <div class="columnaCompra">
-            <div class="contenedor3-imagen-precio">
+    <div class="slide-opcion4">
+
+
+        <div class="slide-opcion4-contenido">
+            <div class="slide-opcion4-contenido-imagenes">
                 <img src="imagenes/precios/precio1.png" alt="" class="imagen1">
                 <img src="imagenes/precios/precio1-1.png" alt="" class="imagen2">
             </div>
-            <div class="contenedor3-columnaCompra-texto">
-                <h3>Starter Plan</h3>
-                <h4>Little teams and startups</h4>
-                <h1 class="precio">$35<span>.99</span></h1>
-                <h2>Per Month</h2><br>
+            <div class="slide-opcion4-contenido-titulo">
+                <h2>Starter Plan</h2>
+                <p>Little teams and startups</p>
+            </div>
+            <div class="slide-opcion4-contenido-precio">
+                <h1>$35<span>.99</span></h1>
+                <p>Per Month</p><br>
+            </div>
+            <div class="slide-opcion4-contenido-precio-texto">
                 <p>Unlimited back-end bandwidth</p>
                 <p>Unlimited inbound data transfer</p>
                 <p>Global deployment</p>
-                <p>On-deployment</p>
+                <p>On-demand provisioning</p>
                 <p>Flexible bandwidth packages</p>
                 <p>Extensive customization</p>
                 <p>24x7 support</p>
             </div>
-            <input type="button" value="Get Started" class="contenedor3-columnaCompra-boton">
+            <div class="slide-opcion4-contenido-precio-buttom">
+                <h4>Get Started</h4>
+            </div>
         </div>
 
 
-        <div class="columnaCompra">
-            <div class="contenedor3-imagen-precio">
+        <div class="slide-opcion4-contenido">
+            <div class="slide-opcion4-contenido-imagenes">
                 <img src="imagenes/precios/precio2.png" alt="" class="imagen1">
                 <img src="imagenes/precios/precio2-2.png" alt="" class="imagen2">
             </div>
-            <div class="contenedor3-columnaCompra-texto">
-                <h3>Pro Business</h3>
-                <h4>Little teams and startups</h4>
-                <h1 class="precio">$78<span>.99</span></h1>
-                <h2>Per Month</h2><br>
+            <div class="slide-opcion4-contenido-titulo">
+                <h2>Pro Business</h2>
+                <p>Little teams and startups</p>
+            </div>
+            <div class="slide-opcion4-contenido-precio">
+                <h1>$78<span>.99</span></h1>
+                <p>Per Month</p><br>
+            </div>
+            <div class="slide-opcion4-contenido-precio-texto">
                 <p>Unlimited back-end bandwidth</p>
                 <p>Unlimited inbound data transfer</p>
                 <p>Global deployment</p>
@@ -52,20 +64,26 @@
                 <p>Extensive customization</p>
                 <p>24x7 support</p>
             </div>
-                <input type="button" value="Get Started" class="contenedor3-columnaCompra-boton">
+            <div class="slide-opcion4-contenido-precio-buttom">
+                <h4>Get Started</h4>
+            </div>
         </div>
 
 
-        <div class="columnaCompra">
-            <div class="contenedor3-imagen-precio">
+        <div class="slide-opcion4-contenido">
+            <div class="slide-opcion4-contenido-imagenes">
                 <img src="imagenes/precios/precio3.png" alt="" class="imagen1">
                 <img src="imagenes/precios/precio3-3.png" alt="" class="imagen2">
             </div>
-            <div class="contenedor3-columnaCompra-texto">
-                <h3>Enterprise VIP</h3>
-                <h4>Little teams and startups</h4>
-                <h1 class="precio">$135<span>.99</span></h1>
-                <h2>Per Month</h2><br>
+            <div class="slide-opcion4-contenido-titulo">
+                <h2>Enterprise VIP</h2>
+                <p>Little teams and startups</p>
+            </div>
+            <div class="slide-opcion4-contenido-precio">
+                <h1>$135<span>.99</span></h1>
+                <p>Per Month</p><br>
+            </div>
+            <div class="slide-opcion4-contenido-precio-texto">
                 <p>Unlimited back-end bandwidth</p>
                 <p>Unlimited inbound data transfer</p>
                 <p>Global deployment</p>
@@ -74,8 +92,11 @@
                 <p>Extensive customization</p>
                 <p>24x7 support</p>
             </div>
-            <input type="button" value="Get Started" class="contenedor3-columnaCompra-boton">
+            <div class="slide-opcion4-contenido-precio-buttom">
+                <h4>Get Started</h4>
+            </div>
         </div>
+
     </div>
 
 </body>
