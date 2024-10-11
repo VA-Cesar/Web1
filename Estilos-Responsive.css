@@ -449,7 +449,9 @@
         background-image:none;
     }
 
-
+    .enlaces-encabezado-contenedor3{
+        gap: none;
+    }
 
 
     /*------------------CONTENIDO1 ------------*/
