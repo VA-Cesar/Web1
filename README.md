@@ -6,6 +6,15 @@ Este proyecto es una página web desarrollada en un plazo de 5 semanas utilizand
 
 ---
 
+## Imágenes del Proyecto
+
+Aquí tienes un par de imágenes representativas de la página web:
+
+![Imagen 1](https://va-cesar.github.io/Web1/ruta_a_imagen1)  
+
+![Imagen 2](https://va-cesar.github.io/Web1/ruta_a_imagen2)  
+---
+
 ## Funcionalidades
 
 - **Menú de navegación completamente funcional**: Implementación de un menú de navegación intuitivo que permite a los usuarios acceder a las distintas secciones del sitio de manera sencilla.
