@@ -10,7 +10,7 @@ Este proyecto es una página web desarrollada en un plazo de 5 semanas utilizand
 
 Aquí tienes un par de imágenes representativas de la página web:
 
-![Imagen 1](https://va-cesar.github.io/Web1/imagen1)  
+![Imagen 1](https://va-cesar.github.io/Web1/imagen1.png)  
 
 ![Imagen 2](https://va-cesar.github.io/Web1/imagen2)  
 ---
